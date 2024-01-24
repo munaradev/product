@@ -478,7 +478,7 @@ body {
     line-height: 28px;
 }
 
-.swiper-slide h2:hover {
+.swiper-slide:hover>h2 {
     color: #02897A;
     scale: 1.0;
     transition: .4s;
@@ -502,53 +502,59 @@ body {
     border: 2px solid #d7d1d1;
 }
 
-.price h1 {
-    padding: 150px 0 8px 0;
+#price {
+    padding: 60px 0;
 }
+
 
 .price h1 {
     color: #22343D;
     font-size: 34px;
     font-weight: 700;
-    margin: 0 auto;
-}
-
-.price {
-    display: flex;
-    flex-direction: column;
+    text-align: center;
 }
 
 .price p {
     color: #22343D;
     font-size: 16px;
     font-weight: 500;
-    margin: 0 auto;
+    text-align: center;
+    padding: 8px 0 50px 0;
 }
 
 .oneBlock h3 {
     color: #22343D;
     font-size: 24px;
     font-weight: 700;
-    line-height: 40px;
 }
 
 .oneBlock h6 {
     color: #22343D;
     font-size: 16px;
     font-weight: 400;
-    line-height: 40px;
 }
 
 .dollar {
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.dollar h2 {
+    color: #02897A;
+    /* text-align: center; */
+    font-size: 76px;
+    font-weight: 700;
+}
+
+.dollar h4 {
+    color: #02897A;
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .btn-block {
-    display: inline-flex;
     padding: 11px 19px 11px 18px;
-    justify-content: center;
-    align-items: center;
     border-radius: 8px;
     background: #02897A;
     color: #FFF;
@@ -557,44 +563,51 @@ body {
 }
 
 .oneBlock h5 {
-    width: 96px;
-    height: 19px;
     flex-shrink: 0;
     color: var(--second-text, #AFAFAF);
     font-size: 16px;
     font-weight: 400;
-    line-height: 19px;
-    letter-spacing: 0.1px;
 }
 
 .oneBlock {
-    width: 322.649px;
+    width: 32%;
     height: 456px;
     flex-shrink: 0;
     border-radius: 8px;
     background: #FFF;
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
-    text-align: center;
+    /* text-align: center; */
+    /* flex-direction: column; */
+    display: flex;
     flex-direction: column;
-
+    align-items: center;
+    justify-content: space-around;
 }
 
 .threeblock {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 0 150px 0;
-
 }
 
 .oneBlock:hover {
-    background-color: #02897A;
-    transition: 0.4s;
     background: #02897A;
-    color: #FFF;
-  
+    transition: 0.4s;
+    cursor: pointer;
 }
 
+.oneBlock:hover>.dollar h2,
+.oneBlock:hover>.dollar div h4,
+.oneBlock:hover>.dollar div h5,
+.oneBlock:hover>h3,
+.oneBlock:hover>h6 {
+    color: #fff;
+}
+
+.oneBlock:hover>button {
+    background: #FFF;
+    color: #02897A;
+}
 
 .clients h1 {
     color: #22343D;
@@ -618,6 +631,7 @@ body {
     line-height: 28px;
     letter-spacing: 0.2px;
     justify-content: center;
+    padding: 8px 0 50px 0;
 }
 
 .blokOne h5 {
@@ -625,12 +639,13 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
-    letter-spacing: 0.2px;
-
+    padding: 16px 0;
 }
 
 .ikonn {
     display: flex;
+    justify-content: space-between;
+    width: 55%;
 }
 
 .ikonn h3 {
@@ -641,12 +656,10 @@ body {
     letter-spacing: 0.2px;
 }
 
-.ikonn p {
+.ikonn h6 {
     color: var(--text-color, #252B42);
     font-size: 14px;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.2px;
 }
 
 .otzyv {
@@ -655,48 +668,55 @@ body {
     align-items: center;
 }
 
+.star ion-icon {
+    color: #F3CD03;
+}
+
 .blokOne {
-    width: 327px;
-    height: 236px;
+    padding: 20px;
+    width: 28%;
     border-radius: 5px;
     border: 1px solid #DEDEDE;
     background: var(--light-background, #FFF);
 }
 
-.jointwo h1 {
+.join-block h1 {
     color: #FFF;
     font-size: 32px;
     font-weight: 600;
-    line-height: 151.4%;
+    padding-bottom: 15px;
 }
 
-.jointwo button {
+.join-block button {
     color: #02897A;
     font-size: 20px;
     font-weight: 600;
     border-radius: 8px;
     background: #FFF;
-    display: inline-flex;
-    padding: 13px 35px 7px 33px;
-    justify-content: center;
-    align-items: center;
+    padding: 15px 25px;
 }
 
-.join {
-    width: 968px;
+#join{
+    padding: 70px 0;
+}
+
+.join-block-text{
+    padding-left: 20px;
+}
+
+.join-block {
     height: 345px;
-    flex-shrink: 0;
+    width: 90%;
     border-radius: 32px;
     background: #02897A;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.jointwo {
-    flex-direction: column;
-}
-
-#join {
-    padding: 157px 0 150px 0;
+.join{
+    display: flex;
+    justify-content: center;
 }
 
 .footer {
@@ -748,6 +768,7 @@ body {
     border-radius: 4px;
     border: 1px solid #BCD0E5;
     background: #FFF;
+    margin: 34px 0 21px 0;
 }
 
 .btn-55 {
@@ -773,4 +794,8 @@ body {
 
 .ikonki {
     padding: 16.2px 0;
+}
+.knowing{
+    display: flex;
+    flex-direction: column;
 }
