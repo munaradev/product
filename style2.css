@@ -1,0 +1,669 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#header {
+    padding: 25px 0;
+    -webkit-box-shadow: 1px 4px 23px -5px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 1px 4px 23px -5px rgba(34, 60, 80, 0.2);
+    box-shadow: 1px 4px 23px -5px rgba(34, 60, 80, 0.2);
+    backdrop-filter: blur(8px);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.white {
+    font-family: 'Poppins', sans-serif;
+    background: white;
+    transition: .4s;
+}
+
+.dark {
+    background: #1F2E35;
+    font-family: 'Poppins', sans-serif;
+    transition: .4s;
+}
+
+.zagolovokOne h1 {
+    color: #173A56;
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 16px;
+}
+
+.zagolovokOne {
+    display: flex;
+}
+
+.zagolovok a {
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.zagolovok ion-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #F3F3F3;
+    color: #02897A;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnOne {
+    padding: 15px 25px;
+    color: #173A56;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.btnOne:hover {
+    scale: 1.1;
+
+}
+
+.btnThree {
+    width: 32px;
+    height: 32px;
+    background: #F3F3F3;
+    border-radius: 50%;
+    color: #02897A;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.zagolovok {
+    display: flex;
+    align-items: center;
+}
+
+.dark .zagolovokOne h1,
+.dark .zagolovok a,
+.dark .pricing h2,
+.dark .pricing h1,
+.dark .pricing p,
+.dark .block1 h3,
+.dark .block1 h6,
+.dark .enterprice h2,
+.dark .enterprice h1,
+.dark .enterprice p,
+.dark .product h1,
+.dark .text1 h2,
+.dark .text p,
+.dark .asked h1,
+.dark .asked h6,
+.dark .zagolovokOne h1,
+.dark .resurse h3,
+.dark .resurse p,
+.dark .legal h3,
+.dark .legal p,
+.dark .knowing h2,
+.dark .h6 {
+    color: #fff;
+}
+
+.zagolovokOne {
+    display: flex;
+}
+
+
+.btnTwo {
+    padding: 15px 25px;
+    border-radius: 5px;
+    background: #02897A;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btnTwo:hover {
+    scale: 1.1;
+}
+
+.zagolovok a:hover {
+    text-decoration-line: underline;
+    color: #2d4e68;
+}
+
+.zagolovok a {
+    padding: 0 5px;
+}
+
+.pricing h2 {
+    color: #22343D;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#pricing {
+    padding: 50px 0 150px 0;
+}
+
+.pricing h1 {
+    color: #22343D;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.pricing p {
+    color: #22343D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 16px 0 49px 0;
+}
+
+.threblok {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blok1 h3 {
+    color: #22343D;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.block1 h6 {
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.dollar h4 {
+    color: #02897A;
+    font-size: 76px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+
+.dollar h5 {
+    width: 16px;
+    color: #02897A;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+}
+
+.p h6 {
+    width: 96px;
+    height: 19px;
+    color: #AFAFAF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.1px;
+}
+
+.block1 p {
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+}
+
+.block1 button {
+    color: #FFF;
+    font-size: 18px;
+    display: inline-flex;
+    padding: 11px 19px 11px 18px;
+    border-radius: 8px;
+    background: #02897A;
+}
+
+.block1 {
+    width: 32%;
+    height: 456px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.dollar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block1:hover {
+    background: #02897A;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.block1:hover>.dollar h4,
+.block1:hover>.dollar .p h5,
+.block1:hover>h3,
+.block1:hover>h6,
+.block1:hover>p {
+    color: #FFF;
+}
+
+.block1:hover>button {
+    background-color: #fff;
+    color: #02897A;
+}
+
+
+#enterprice {
+    /* padding: 150px 0 150px 0; */
+    background-image: url(img/background.png);
+}
+
+.enterprice h2 {
+    color: #22343D;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    padding: 53px 0 16px 0;
+}
+
+.enterprice h1 {
+    color: #22343D;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.enterprice p {
+    color: #22343D;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.enterprice button {
+    display: inline-flex;
+    padding: 11px 18px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #02897A;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.product h1 {
+    color: #22343D;
+    font-size: 34px;
+    font-weight: 700;
+    padding: 150px 0 51px 0;
+    /* display: flex; */
+    /* align-items: center; */
+    /* margin: 0 auto;   */
+    /* text-align: center; */
+    text-align: center;
+}
+
+.being {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img {
+    margin-right: 63px;
+    width: 100%;
+    /* height: 392.342px; */
+}
+
+.text1 {
+    display: flex;
+
+}
+
+.text1 img {
+    padding-right: 14px;
+
+}
+
+.text1 h2 {
+    color: #22343D;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.text p {
+    width: 400px;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 23px 0 39px 0;
+}
+
+
+#asked {
+    padding: 70px 0;
+}
+
+.asked h1 {
+    color: #22343D;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.asked h6 {
+    color: #22343D;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding: 8px 0 50px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+ul li {
+    position: relative;
+    padding-bottom: 4px;
+    padding-top: 18px;
+    border-top: 1px solid #dce7eb;
+}
+
+ul li input[type="checkbox"] {
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+}
+
+ul li i {
+    position: absolute;
+    transform: translate(-6px, 0);
+    margin-top: 16px;
+    right: 0;
+}
+
+ul li input[type=checkbox]:checked~p {
+    margin-top: 0;
+    max-height: 0;
+    opacity: 0;
+    transform: translateX(-50%);
+}
+
+ul li input[type="checkbox"]:checked~i::before {
+    transform: translate(2px, 0) rotate(45deg);
+}
+
+ul li input[type="checkbox"]:checked~i::after {
+    transform: translate(-2px, 0) rotate(-45deg);
+}
+
+ul li i::before,
+ul li i::after {
+    content: "";
+    position: absolute;
+    background: #333;
+    width: 3px;
+    height: 9px;
+}
+
+ul li i::before {
+    transform: translate(-2px, 0)rotate(45deg);
+}
+
+ul li i:after {
+    transform: translate(2px, 0) rotate(-45deg);
+}
+
+ .texter  p {
+    font-size: 16px;
+    color: rgba(48, 69, 92, 0.8);
+    line-height: 26px;
+    letter-spacing: 1px;
+    position: relative;
+    padding: 0 11px;
+    max-height: 800px;
+    margin-top: 14px;
+    opacity: 1;
+    transform: translate(0, 0);
+    overflow: hidden;
+}
+
+.texter h2 {
+    color: #22343D;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.transition,
+p,
+ul li i:before,
+ul li i:after {
+    transition: all 0.25s ease-in-out;
+
+}
+
+.flipIn,
+h1,
+ul li {
+    animation: flipdown 0.5s ease both;
+}
+
+ul li:nth-of-type(1) {
+    animation-delay: 0.5s;
+}
+
+ul li:nth-of-type(2) {
+    animation-delay: 0.75s;
+}
+
+ul li:nth-of-type(3) {
+    animation-delay: 1s;
+}
+
+ul li:last-of-type {
+    padding-bottom: 0;
+}
+
+@keyframes flipdown {
+    0% {
+        opacity: 0;
+        transform-origin: top center;
+        transform: rotateX(-90deg);
+    }
+
+    5% {
+        opacity: 1;
+    }
+
+    80% {
+        transform: rotateX(8deg);
+    }
+
+    83% {
+        transform: rotateX(6deg);
+    }
+
+    92% {
+        transform: rotateX(-3deg);
+    }
+
+    100% {
+        transform-origin: top center;
+        transform: rotateX(0deg);
+    }
+}
+
+
+.join-block h1 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.join-block button {
+    color: #02897A;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 15px 25px;
+}
+
+#join {
+    padding: 70px 0;
+}
+
+.join-block-text {
+    padding-left: 20px;
+}
+
+.join-block {
+    height: 345px;
+    width: 90%;
+    border-radius: 32px;
+    background: #02897A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.join {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.resurse h3 {
+    color: #22343D;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.resurse p {
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.legal h3 {
+    color: #22343D;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.legal p {
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.knowing h2 {
+    width: 280px;
+    height: 57px;
+    color: #22343D;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.knowing input {
+    width: 325px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #BCD0E5;
+    background: #FFF;
+    margin: 34px 0 21px 0;
+}
+
+.btn-55 {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    width: 131px;
+    height: 39px;
+    border-radius: 4px;
+    background: #02897A;
+}
+
+.h6 {
+    width: 394px;
+    height: 31px;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0 auto;
+    padding: 37px 0;
+}
+
+.ikonki {
+    padding: 16.2px 0;
+}
+
+.knowing {
+    display: flex;
+    flex-direction: column;
+}

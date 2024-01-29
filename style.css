@@ -20,8 +20,16 @@ button {
     transition: .4s;
 }
 
-body {
+.white {
     font-family: 'Poppins', sans-serif;
+    background: white;
+    transition: .4s;
+}
+
+.dark {
+    background: #1F2E35;
+    font-family: 'Poppins', sans-serif;
+    transition: .4s;
 }
 
 #header {
@@ -46,6 +54,51 @@ body {
     font-size: 30px;
     font-weight: 700;
     padding-left: 16px;
+}
+
+.dark .zagolovokOne h1,
+.dark .zagolovok a,
+.dark .work h1,
+.dark .work p,
+.dark .product h1,
+.dark .box1 h3,
+.dark .box1 p,
+.dark .box2 h3,
+.dark .box2 p,
+.dark .box3 h3,
+.dark .box3 p,
+.dark .box4 h3,
+.dark .box4 p,
+.dark .space h3,
+.dark .space h1,
+.dark .space p,
+.dark .support h3,
+.dark .support h1,
+.dark .support p,
+.dark .blok1 h6,
+.dark .blok2 h6,
+.dark .blok3 h6,
+.dark .collab1 h3,
+.dark .collab1 h1,
+.dark .collab1 p,
+.dark .collab1 h4,
+.dark .quick h1,
+.dark .quick h6,
+.dark .contents h1,
+.dark .contents p,
+.dark .price h1,
+.dark .price p,
+.dark .clients h1,
+.dark .clients p,
+.dark .resurse h3,
+.dark .resurse p,
+.dark .legal h3,
+.dark .legal p,
+.dark .knowing h2,
+.dark .h6
+
+{
+    color: white;
 }
 
 .zagolovokOne {
@@ -83,6 +136,25 @@ body {
 
 .btnTwo:hover {
     scale: 1.1;
+}
+
+.btnThree {
+    width: 32px;
+    height: 32px;
+    background: #F3F3F3;
+    border-radius: 50%;
+    color: #02897A;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.zagolovok {
+    display: flex;
+    align-items: center;
 }
 
 .zagolovok a:hover {
@@ -378,7 +450,7 @@ body {
     padding: 52.54px 0;
 }
 
-.quick p {
+.quick h6 {
     width: 542px;
     color: #22343D;
     text-align: center;
@@ -506,7 +578,6 @@ body {
     padding: 60px 0;
 }
 
-
 .price h1 {
     color: #22343D;
     font-size: 34px;
@@ -576,8 +647,6 @@ body {
     border-radius: 8px;
     background: #FFF;
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
-    /* text-align: center; */
-    /* flex-direction: column; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -696,11 +765,11 @@ body {
     padding: 15px 25px;
 }
 
-#join{
+#join {
     padding: 70px 0;
 }
 
-.join-block-text{
+.join-block-text {
     padding-left: 20px;
 }
 
@@ -714,7 +783,7 @@ body {
     align-items: center;
 }
 
-.join{
+.join {
     display: flex;
     justify-content: center;
 }
@@ -795,7 +864,8 @@ body {
 .ikonki {
     padding: 16.2px 0;
 }
-.knowing{
+
+.knowing {
     display: flex;
     flex-direction: column;
 }
