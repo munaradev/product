@@ -33,6 +33,11 @@
 }
 
 @media(max-width:768px) {
+
+    .menu-open{
+        display: block;
+    }
+
     .click {
         flex-wrap: wrap;
         justify-content: space-around;

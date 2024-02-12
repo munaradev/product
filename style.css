@@ -32,6 +32,60 @@ button {
     transition: .4s;
 }
 
+
+.menu-open{
+    background: transparent;
+    color: #02897A;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.burger-menu{
+    width: 60%;
+    height: 100vh;
+    background: #02897A;
+    position: fixed;
+    top: 0;
+    right: 0;
+    backdrop-filter: blur(10px);
+    display: none;
+    animation: menu 1s alternate linear;
+}
+
+@keyframes menu {
+    0%{
+        transform: translateX(1200px);
+    }
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    position: relative;
+}
+
+.menu a{
+    color: white;
+}
+
+.menu-close{
+    background: transparent;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
 #header {
     padding: 25px 0;
     -webkit-box-shadow: 1px 4px 23px -5px rgba(34, 60, 80, 0.2);
