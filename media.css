@@ -1,0 +1,233 @@
+@media (max-width:1440px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media(max-width:1200px) {}
+
+@media(max-width:1024px) {}
+
+@media(max-width:992px) {
+    .work {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .workTwo {
+        justify-content: center;
+    }
+
+    .img-photo{
+        width: 90%;
+    }
+    .img-photo2{
+        width: 90%;
+    }
+    .img-22{
+        width: 90%;
+    }
+    .img-collab{
+        width: 90%;
+    }
+}
+
+@media(max-width:768px) {
+    .click {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .zagolovok {
+        display: none;
+    }
+
+    .management {
+        flex-direction: column-reverse;
+    }
+
+    .customers {
+        flex-direction: column;
+    }
+
+    .collab {
+        flex-direction: column-reverse;
+    }
+
+    .ikons {
+        flex-direction: column;
+    }
+
+    .iconic {
+        width: 63%;
+    }
+
+    .iconic-two {
+        width: 63%;
+        flex-direction: row-reverse;
+    }
+
+    .threeblock {
+        flex-direction: column;
+    }
+
+    .otzyv {
+        flex-direction: column;
+    }
+
+    .join-block {
+        flex-direction: column;
+        height: 90%;
+        flex-wrap: nowrap;
+
+    }
+
+    .join-block-text {
+        text-align: center;
+        width: 90%;
+        padding-top: 20px;
+    }
+
+    .oneBlock {
+        width: 45%;
+        margin: 10px 0 10px 0
+    }
+
+    .blokOne {
+        width: 46%;
+        margin: 10px 0 10px 0;
+    }
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .knowing{
+        align-items: center;
+    }
+}
+@media(max-width:450px){
+    .work{
+        width: 90%;
+    }
+    .work h1{
+        width: 90%;
+    }
+    .work div p{
+        width:90%;
+    }
+    .product h1{
+        width: 90%;
+    }
+    .management h3{
+        width: 90%;
+    }
+    .management p{       
+
+        width: 90%;
+    }
+    .management h1{  
+
+        width: 90%;
+    }  
+    .customers h3{
+        width: 90%;
+    }       
+    .customers{
+        width: 90%;
+    }  
+    .customers p{
+        width: 90%;
+    }
+    .support h6{
+        width: 90%;
+    }
+    .collab{
+        width: 90%;
+    }
+    .collab h3{
+        width: 90%;
+    }
+    .collab h1{
+        width: 90%;
+    }
+    .collab p{
+        width: 90%;
+    }
+    .quick{
+        width: 90%;
+    }
+    .quick h1{
+        width: 90%;
+    }
+    .quick h6{
+        width: 90%;
+    }
+    .iconic{
+        width: 90%;
+    }
+    .contents{
+        width: 90%;
+    }
+    .contents h1{
+        width: 90%; 
+        text-align: center;
+    }
+    .contents p{
+        width: 90%;
+        text-align: center;
+    }
+    .oneBlock{
+        width: 90%;
+    }
+    .blokOne{
+        width: 65%;
+    }
+    .iconic-two{
+        width: 90%;
+        
+    }
+    .join-block-text{
+        width: 90%;
+    }
+}
+
+@media(max-width:400px){
+    .iconic{
+        width: 100%;
+        text-align: center;
+    }
+    .iconic-two{
+        width: 100%;
+        text-align: center;
+    }
+    .blokOne{
+        width: 80%;
+    }
+}
+@media(max-width:375px){
+    .img-join{
+        width: 90%;
+    }
+    .knowing input{
+        width: 90%;
+    }
+    .h6{
+        width: 90%;
+    }
+    .img-photo2{
+        width: 90%;
+    }
+    .img-22{
+        width: 90%;
+    }
+    .img-collab{
+        width: 90%;
+    }
+}
+@media(max-width:320px){
+        .blokOne{
+            width: 90%;
+        }
+}
+    

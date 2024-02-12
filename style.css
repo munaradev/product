@@ -473,7 +473,26 @@ button {
     align-items: center;
     justify-content: center;
 }
-
+.iconic-two p{
+    width: 274px;
+    height: 53px;
+    border-radius: 26.5px;
+    background: #FFF;
+    box-shadow: 0px 2px 15px 0px rgba(23, 58, 86, 0.10);
+    color: #2F281E;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iconic-two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    margin: 10px 0;
+}
 .iconic {
     display: flex;
     justify-content: space-between;
